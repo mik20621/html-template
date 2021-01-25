@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/*==================================================
+
+** outline
+==================================================*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a:hover {
+  text-decoration: none;
+}
